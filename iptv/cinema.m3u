@@ -1,0 +1,24 @@
+﻿#EXTM3U
+#обновление 2020.02.08
+
+#EXTGRP:Кино
+
+#EXTINF:-1,Еврокино
+http://109.248.90.88:4044/udp/239.195.1.36:1234
+#EXTINF:0,Кино ТВ
+http://176.115.136.45:8080/udp/233.166.172.181:1234
+#EXTINF:0,Киносвидание
+http://176.115.136.45:8080/udp/233.166.172.47:1234
+#EXTINF:0,Киносемья
+http://176.115.136.45:8080/udp/233.166.172.46:1234
+#EXTINF:-1,Кинопремьера HD
+http://178.124.183.5/hls/CH_KINOPREMERA/variant.m3u8?version=2
+#EXTINF:-1,Классика кино HD
+http://serv25.vintera.tv:8081/klasskino/k_kino/playlist.m3u8
+#EXTINF:-1,Мужское кино HD
+http://188.35.9.11:2022
+#EXTINF:-1,Русский Роман HD
+http://188.35.9.5:10007/stolen/127k/parasite.install
+#EXTINF:-1,Супер HD
+http://85.112.114.11:8086/udp/238.2.49.249:1234
+
