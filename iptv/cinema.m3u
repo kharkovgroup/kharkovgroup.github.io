@@ -1,5 +1,8 @@
 ﻿#EXTM3U
-#обновление 2020.02.08
+
+#https://kharkovgroup.github.io/iptv.html
+
+#обновление 2020.02.11
 
 #EXTGRP:Кино
 
@@ -19,6 +22,32 @@ http://serv25.vintera.tv:8081/klasskino/k_kino/playlist.m3u8
 http://188.35.9.11:2022
 #EXTINF:-1,Русский Роман HD
 http://188.35.9.5:10007/stolen/127k/parasite.install
+#EXTINF:0,TV1000 Русское кино HD
+http://duga.life:8080/ch320/video.m3u8?token=KIZqoLR8y3
 #EXTINF:-1,Супер HD
 http://85.112.114.11:8086/udp/238.2.49.249:1234
+
+#EXTINF:0,TV1000 HD
+http://duga.life:8080/ch34/video.m3u8?token=KIZqoLR8y3
+#EXTINF:0,TV1000 Action HD
+http://duga.life:8080/ch327/video.m3u8?token=KIZqoLR8y3
+#EXTINF:0,TV1000 Русское кино HD
+http://duga.life:8080/ch320/video.m3u8?token=KIZqoLR8y3
+
+#EXTINF:0,Кино ТВ HD
+http://duga.life:8080/ch0273/video.m3u8?token=KIZqoLR8y3
+#EXTINF:0,Кинохит HD
+http://duga.life:8080/ch313/video.m3u8?token=KIZqoLR8y3
+#EXTINF:0,Кинопремьера HD
+http://duga.life:8080/ch303/video.m3u8?token=KIZqoLR8y3
+#EXTINF:0,Киносвидание HD
+http://duga.life:8080/ch0305/video.m3u8?token=KIZqoLR8y3
+#EXTINF:0,Киносемья HD
+http://duga.life:8080/ch0280/video.m3u8?token=KIZqoLR8y3
+#EXTINF:0,Киноужас HD
+http://duga.life:8080/ch391/video.m3u8?token=KIZqoLR8y3
+#EXTINF:0,Русский роман HD
+http://duga.life:8080/ch0250/video.m3u8?token=KIZqoLR8y3
+#EXTINF:0,Дом кино премиум HD
+http://duga.life:8080/ch317/video.m3u8?token=KIZqoLR8y3
 

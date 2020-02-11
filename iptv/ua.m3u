@@ -1,5 +1,6 @@
 #EXTM3U
-#обновление 2020.02.08
+#https://kharkovgroup.github.io/iptv.html
+#обновление 2020.02.11
 #EXTGRP:Украина
 
 #EXTINF:0,Simon TV (Харків)
@@ -23,6 +24,29 @@ http://api.tv.ipnet.ua/api/v1/manifest/1311274061.m3u8
 #EXTINF:0,Київ
 http://api.tv.ipnet.ua/api/v1/manifest/1293296300.m3u8
 
+#EXTINF:-1,UA: Перший
+http://ott.flix-tv.ru:2082/pioner/smurf12/1
+#EXTINF:-1,1+1 HD
+http://ott.flix-tv.ru:2082/pioner/smurf12/2
+#EXTINF:-1,Интер
+http://ott.flix-tv.ru:2082/pioner/smurf12/3
+#EXTINF:-1,ICTV HD
+http://ott.flix-tv.ru:2082/pioner/smurf12/4
+#EXTINF:-1,Новый канал HD
+http://ott.flix-tv.ru:2082/pioner/smurf12/5
+#EXTINF:-1,СТБ HD
+http://ott.flix-tv.ru:2082/pioner/smurf12/6
+#EXTINF:-1,ТРК Украина HD
+http://ott.flix-tv.ru:2082/pioner/smurf12/7
+#EXTINF:-1,2+2
+http://ott.flix-tv.ru:2082/pioner/smurf12/8
+#EXTINF:-1,НТН
+http://ott.flix-tv.ru:2082/pioner/smurf12/9
+#EXTINF:-1,К1
+http://ott.flix-tv.ru:2082/pioner/smurf12/10
+#EXTINF:-1,Квартал ТВ
+http://ott.flix-tv.ru:2082/pioner/smurf12/251
+
 #EXTINF:0,Новини 24
 http://api.tv.ipnet.ua/api/v1/manifest/1293298050.m3u8
 #EXTINF:0,ATR
@@ -39,6 +63,8 @@ http://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/chunklist_b1328800
 http://api.tv.ipnet.ua/api/v1/manifest/1442908080.m3u8
 #EXTINF:0,112 HD
 http://app.live.112.events/hls-ua/112hd_hi/index.m3u8
+#EXTINF:-1,112 HD
+http://112hd-hls3.cosmonova.net.ua/hls/112hd_ua_mid/index.m3u8
 #EXTINF:0,КРТ
 http://api.tv.ipnet.ua/api/v1/manifest/1298864660.m3u8
 #EXTINF:0,Еко ТВ 
@@ -58,3 +84,9 @@ http://api.tv.ipnet.ua/api/v1/manifest/709640461.m3u8
 http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-abr/bbb/bbbtv-720p/playlist.m3u8
 #EXTINF:-1,100% News UA
 http://85.238.112.40:8810/hls_sec/239.33.16.32-.m3u8
+
+#EXTINF:-1,Интер
+http://109.68.41.148:1935/live/inter_2/playlist.m3u8
+#EXTINF:-1,НТН
+http://109.68.41.148:1935/live/ntn_2/playlist.m3u8
+

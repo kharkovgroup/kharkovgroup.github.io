@@ -1,5 +1,6 @@
 ﻿#EXTM3U
-#обновление 2020.02.08
+#https://kharkovgroup.github.io/iptv.html
+#обновление 2020.02.11
 #EXTGRP:Спорт
 
 #EXTINF:-1,Eurosport 1
@@ -83,6 +84,9 @@ http://ott-stream.sevstar.net/1930/video.m3u8?token=8330162968
 
 #EXTINF:-1,Футбол RU
 https://95-213-224-184.livesports24.online/footballrus.m3u8
+
+#EXTINF:0,Футбол
+http://duga.life:8080/ch0214/video.m3u8?token=KIZqoLR8y3
 
 #EXTINF:-1,Football 1 FHD
 http://91.103.248.82:81/play/a00j

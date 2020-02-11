@@ -1,7 +1,11 @@
 ﻿#EXTM3U
-#обновление 2020.02.08
+#https://kharkovgroup.github.io/iptv.html
+#обновление 2020.02.11
 
 #EXTGRP:Россия
+
+#EXTINF:-1,Первый канал HD
+http://37.195.247.86:81/udp/239.1.15.20:1234
 
 #EXTINF:-1,Первый канал
 http://109.248.90.88:4044/udp/239.195.32.1:1234
@@ -15,6 +19,28 @@ http://109.248.90.88:4044/udp/239.195.32.4:1234
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:rtrp.smil/chunklist_b1600000.m3u8
 #EXTINF:-1,Россия К
 http://cdnmg.secure.live.rtr-vesti.ru/live/smil:russiak.smil/chunklist_b1600000.m3u8
+#EXTINF:-1,НТВ HD
+http://tvfree7.ddns.net:9991/stream/channelid/768440004?profile=pass
+#EXTINF:-1,НТВ
+http://ott.flix-tv.ru:2082/pioner/smurf12/25
+#EXTINF:-1,НТВ HD
+http://ott.flix-tv.ru:2082/pioner/smurf12/26
+#EXTINF:-1,НТВ Мир
+http://ott.flix-tv.ru:2082/pioner/smurf12/27
+#EXTINF:-1,НТВ Сериал
+http://178.124.183.150/hls/CH_NTVSERIAL_HLS/bw1200000/playlist.m3u8
+#EXTINF:-1,СТС
+http://ott.flix-tv.ru:2082/pioner/smurf12/37
+#EXTINF:-1,СТС Love
+http://ott.flix-tv.ru:2082/pioner/smurf12/39
+#EXTINF:-1,ТВЦ
+http://ott.flix-tv.ru:2082/pioner/smurf12/41
+#EXTINF:-1,ТВ 3
+http://ott.flix-tv.ru:2082/pioner/smurf12/42
+#EXTINF:-1,ТНТ
+http://ott.flix-tv.ru:2082/pioner/smurf12/43
+#EXTINF:-1,ТНТ HD
+http://ott.flix-tv.ru:2082/pioner/smurf12/44
 #EXTINF:-1,Санкт-Петербург
 http://stream2.topspb.tv:1935/dev/smil:reserve.smil/playlist.m3u8
 
