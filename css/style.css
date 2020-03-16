@@ -89,7 +89,6 @@ ul {
 header {
   display: inline-block;
   width: 100%;
-  border: 3px solid #e5e5e5; /*  border-top: 10px; // topnav */
   background: linear-gradient(
               rgba(0, 0, 0, 0.7),
               rgba(0, 0, 0, 0.7)
