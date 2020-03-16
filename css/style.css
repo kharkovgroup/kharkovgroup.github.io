@@ -12,15 +12,20 @@
 
 html, body {
   box-sizing:border-box;
-  height: 100%;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  height:100%;
+/*  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; */
 /*  font-family: 'Roboto', sans-serif; */
 /*  font-family: 'Ubuntu', sans-serif; */
-  font-size: 16px;
-  line-height: 1.5;
-  min-width: 280px;
-  color: #333;
+  font-size:16px;
+  line-height:1.5;
+  min-width:280px;
+  color:#333;
   background-color: #fff;
+  font-family:scandia-web,sans-serif;
+  font-size: 1em;
+  font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
 }
 
 img {
@@ -35,6 +40,40 @@ header, footer, nav, article {
   display: block;
 }
 
+/* --- HEADER --- */
+
+header {
+  display: inline-block;
+  width: 100%;
+  border: 3px solid #e5e5e5; /*  border-top: 10px; // topnav */
+  background: linear-gradient(
+              rgba(0, 0, 0, 0.7),
+              rgba(0, 0, 0, 0.7)
+  ),
+  url('../images/kharkovgroup.jpg');
+  background-color:whitesmoke;
+  /*background: rgba(0, 0, 0, 0.1); */
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+header p.logo {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 2.5em; /*32px;*/
+}
+
+header p.slogan {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 1em;
+}
+
+header a.logo {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
 /* --- GRID --- */
 
 .container {
@@ -42,6 +81,7 @@ header, footer, nav, article {
   min-width: 280px;
   margin-left: auto;
   margin-right: auto;
+  padding: 30px;
 }
 
 .row:after {
@@ -59,37 +99,3 @@ header, footer, nav, article {
 .col-4:last-child {
     margin-right: 0px;
 }
-
-/* --- HEADER --- */
-
-header {
-  height: 30%;
-  background-color: whitesmoke;
-  /*background: rgba(0, 0, 0, 0.1); */
-  border: 3px solid #e5e5e5;
-  /*  border-top: 10px; // topnav */
-
-  background: linear-gradient(
-            rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)
-  ),
-  url('../images/kharkovgroup.jpg');
-}
-
-header p.logo {
-  margin-left: 10px;
-  color: #fff;
-  font-size: 2em; /*32px;*/
-}
-
-header p.slogan {
-  margin-left: 10px;
-  color: #fff;
-  font-size: 1em;
-}
-
-header a.logo {
-  margin-left: 10px;
-  text-decoration: none;
-}
-
