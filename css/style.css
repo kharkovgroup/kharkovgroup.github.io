@@ -61,6 +61,7 @@ p {
 
 ul {
     font-size: 1em;
+    list-style-position: inside;
 }
 
 @media (max-width: 800px) {
@@ -79,6 +80,7 @@ ul {
   }
   ul {
     font-size: 0.75em;
+    list-style-position: inside;
   }
 }
 
