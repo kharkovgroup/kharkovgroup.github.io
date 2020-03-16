@@ -10,6 +10,10 @@
   padding:0;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 html, body {
   box-sizing:border-box;
   height:100%;
@@ -18,19 +22,27 @@ html, body {
   color:#333;
 /*  font-family: 'Roboto', sans-serif; */
   font-family: 'Ubuntu', sans-serif;
-  font-size: 1em;
+  font-size: 16px;
   font-weight:400;
   line-height:1.5;
   -webkit-font-smoothing:antialiased;
   -moz-osx-font-smoothing:grayscale;
 }
 
-img {
-  display: inline-block;
+a {
+  text-decoration: none;
+  color: blue;
+  transition: 0.2s ease-out;
 }
 
-a {
-  transition: 0.2s ease-out;
+/*
+a:visited {
+  color: #212121;
+}
+*/
+
+img {
+  display: inline-block;
 }
 
 header, footer, nav, article {
@@ -82,16 +94,16 @@ ul {
 header {
   display: inline-block;
   width: 100%;
-  /*background: rgba(0, 0, 0, 0.1); */
+/* background: rgba(0, 0, 0, 0.1); */
   background: linear-gradient(
               rgba(0, 0, 0, 0.7),
               rgba(0, 0, 128, 0.7)
   ), url('../images/kharkovgroup.jpg');
-  background-color:whitesmoke;
+/*  background-color:whitesmoke; */
   background-size: auto auto; /*cover;*/
   background-position: center; /*50% 50%;*/
   background-repeat: no-repeat;
-  padding:2.0em 0 2.0em 0;
+  padding: 2.0em 0 1.0em 0;
 }
 
 header p.logo {
